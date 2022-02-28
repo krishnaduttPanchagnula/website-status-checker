@@ -2,7 +2,6 @@
 This app lets you check if your website is working or not, and returns result in a webpage
 
 ## Requirements
-
 The project is built with python and use following libraries:
 
 * [Requests](https://pypi.org/project/beautifulsoup4/)
