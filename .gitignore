@@ -2,3 +2,4 @@ Methods to ensure that website in up and running.docx
 venv
 __pycache__
 tester.py
+emailaddress.py
