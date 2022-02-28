@@ -2,7 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 import smtplib, ssl
-from emailaddress import sender_email,receiver_email
+from emailaddress import sender_email,receiver_email,password
 
 
 # target url
@@ -18,8 +18,8 @@ reqs = requests.get(url)
 port = 587  # To start tls
 smtp_server = "smtp.gmail.com"
 sender_email = sender_email
-receiver_email = receiver_email
-password = input("Type your password and press enter:")
+receiver_email = receiver_email 
+password = password             
 
 # establishing secure ssl connection
 context = ssl.create_default_context()
